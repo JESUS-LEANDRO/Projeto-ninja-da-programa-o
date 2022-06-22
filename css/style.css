@@ -268,7 +268,7 @@ footer, .feito{
     margin-top: 50px;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 320px) {
      #main-banner{
         height: 40vh;
         padding-top: 5vh;
