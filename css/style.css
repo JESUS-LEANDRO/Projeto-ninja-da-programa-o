@@ -409,10 +409,10 @@ footer, .feito{
         background-color: red;
         margin-top: -10vh;
     }
-    .pergaminho > img{
+    div, .pergaminho{
         background-color: red;
         margin-top: -10vh;
-        width: 40%;
+        width: auto;
     }
     button{
         width: 260px;
