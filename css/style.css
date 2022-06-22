@@ -1,0 +1,418 @@
+body, p, h1, input, textarea{
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+h2{
+    font-size: 30px;
+}
+#navbar{
+    background-color: rgb(241, 30, 22);
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+#navbar h2{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+#navbar h2, #navbar ul, #navbar li{
+    display: inline-block;
+}
+#navbar img{
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+}
+#navbar ul{
+    margin-top: 22px;
+    float: right;
+}
+#navbar li{
+    float: right;
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: red;
+    padding: 10px;
+    border-radius: 3px;
+}
+#main-banner{
+    height: 70vh;
+    background-size: cover;
+    padding-top: 10vh;
+    background-image: url("../assets/img/lua.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-info, h1,p{
+    color: white;
+    text-align: center;
+}
+.banner-info h1{
+    
+}
+.banner-info, .ninja{
+    background-color: red;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px gray;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+.logo{
+    height: 350px;
+    float: right;
+}
+/*inicio seção sobre mim*/
+section{
+    background-color: red;
+    height: 397px;
+    padding-top: 30px;
+    text-align: center;
+}
+section, h2{
+    margin-bottom: 20px;
+}
+section > .meu-jeito{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    font-size: 18px;
+    line-height: 20px;
+}
+section > #container{
+    height: 505px;
+    margin-top: -120px;
+    width: 80%;
+    background-color:rgba(128, 128, 128, 0.541);
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 10px;
+}
+/*inicio skills*/
+#skills > #container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#skills-container{
+    flex: 1 1 1;
+    text-align: center;
+    padding: 18px 25px;
+}
+#skills > div, .central {
+    border-left: 2px solid rgb(27, 27, 27);
+    border-right: 2px solid rgb(27, 27, 27);
+    height: 505px;
+}
+#skills-container > img{
+    width: 160px;
+}
+.criação-1 > h3{
+    margin-bottom: 1px;
+}
+.subtitulo-1, .subtitulo-2{
+    font-weight: bold;
+    color:black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.central > img{
+    width: 130px;
+    padding: 25px 0px;
+    text-align: center;
+}
+div,h3{
+    text-align: center;
+}
+.infra{
+    padding-top: 25px;
+}
+.infra,.serviço{
+    margin-bottom: 5px;
+}
+/*inicio experiencia*/
+#experiências > .emprego-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#certificados > .emprego-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section, #experiências, .clique{
+    color: black;
+}
+div, .projeto1{
+    flex: 1 1 200px;
+    height: 300px;    
+    background-size: cover;
+}
+.emprego-container > .projeto1{
+    background-image: url("../assets/img/1.png");
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.projeto2{
+    background-image: url("../assets/img/2.png");
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.projeto3{
+    background-image: url("../assets/img/3.png");
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#experiências > .emprego-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#certificados > .emprego-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div, .pro1{
+    flex: 1 1 200px;
+    height: 300px;    
+    background-size: cover;
+}
+.emprego-container-2 > .pro1{
+    background-image: url("../assets/img/4.png");
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.pro2{
+    background-image: url("../assets/img/5.png");
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.pro3{
+    background-image: url("../assets/img/6.png");
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+/*inicio footer*/
+footer > h2{
+    text-align: center;
+}
+.pergaminho{
+    background-color: red;
+    margin-top: 50vh;
+}
+textarea{
+    width: 436px;
+    background-color: red;
+    color: black;
+    border-radius: 3px;
+    height: 100px;
+    margin-top: 10px;
+}
+input{
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+}
+button{
+    width: 260px;
+    height: 25px;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+}
+footer, .feito{
+    color: black;
+    margin-top: 50px;
+}
+
+@media (max-width: 900px) {
+     #main-banner{
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+     }
+     div, #banner-info > {
+        width: 40%;
+     }
+     div, #banner-info, p{
+        margin: 0;
+        width: auto;
+     }
+     #main-banner > div, .logo{
+        height: 188px;
+        margin-right: 25px;
+     }
+     .ninja{
+        margin-right: 15px;
+     }
+     section #container{
+        margin-bottom: -120px; 
+    }
+     section, #fim-seção{
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 80px; 
+     }
+     section, #skills{
+        margin-top: -10px;
+        width: auto;
+    }
+    #container > .skills-a{
+        border: none;
+    }
+    
+    #skills #container{
+        margin-bottom: 5px;
+        padding-bottom: 20vh;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        display: block ;
+        flex-direction: column;
+    }
+    #skills-container, h3, .subtitulo-1, .subtitulo-2, .paixao, .linguagem{
+        font-size: 13px;
+        padding-top: -0vh;
+        margin-top: 0px;
+        padding-bottom: -20px;
+    }
+    #skills-container{
+        padding-bottom: -35px;
+    }
+    #skills-container > img{
+        padding-bottom: -10vh;
+        height: 70px;
+        width: 70px;
+    }
+    #skills-container{
+        border-bottom: 2px solid rgb(27, 27, 27);
+    }
+    #skills > div, .central {
+        height: 900px;
+        border-left: none;
+        border-right: none;
+        padding-top: -180px;
+        margin-bottom: -600px;
+    }
+    .central > .linguagem{
+        border-bottom: 2px solid rgb(27, 27, 27);
+    }
+    .central > img{
+        height: 70px;
+        width: 70px;
+    }
+    #skills-container .skills-a img{
+        margin-bottom: -500px;
+        height: 80px;
+        width: 70px; 
+    }
+    #experiências .emprego-container{
+        flex-direction: column;
+        height: 700px;
+        width: 250px;
+        margin-bottom: 0;
+    }
+    .emprego-container > .projeto1{
+        background-image: url("../assets/img/11.png");
+        border: 2px solid black;
+        width: 238px;
+        border-radius: 3px;
+        margin: 5px;
+    }
+    .projeto2{
+        background-image: url("../assets/img/22.png");
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 2px solid black;
+        margin: 5px;
+        border-radius: 3px;
+    }
+    .projeto3{
+        background-image: url("../assets/img/33.png");
+        margin-right: 5px;
+        border: 2px solid black;
+        margin: 5px;
+        border-radius: 3px;
+    }
+    #experiências .emprego-container-2{
+        flex-direction: column;
+        height: 700px;
+        width: 250px;
+        margin-bottom: 0;
+    }
+    .emprego-container-2 > .pro1{
+        background-image: url("../assets/img/4.png");
+        width: 221px;
+        padding-right: 16px;
+        margin-top: 4px;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    .pro2{
+        background-image: url("../assets/img/5.png");
+        width: 238px;
+        margin-top: 10px;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    .pro3{
+        background-image: url("../assets/img/6.png");
+        margin-top: 6px;
+        margin-left: 5px;
+        width: 238px;
+        border: 2px solid black;
+        border-radius: 3px;
+    }
+    .pergaminho{
+        background-color: red;
+        margin-top: -10vh;
+    }
+    button{
+        width: 260px;
+        height: 25px;
+        margin-top: 20px;
+    }
+       
+}

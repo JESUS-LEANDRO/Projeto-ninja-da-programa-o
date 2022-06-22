@@ -1,0 +1,242 @@
+body, p, h1, input, textarea{
+    margin: 0;
+    font-family: 'Roboto';
+}
+h2{
+    font-size: 30px;
+}
+#navbar{
+    background-color: rgb(241, 30, 22);
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+#navbar h2{
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+#navbar h2, #navbar ul, #navbar li{
+    display: inline-block;
+}
+#navbar img{
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 6px;
+}
+#navbar ul{
+    margin-top: 22px;
+    float: right;
+}
+#navbar li{
+    float: right;
+    margin: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: red;
+    padding: 10px;
+    border-radius: 3px;
+}
+#main-banner{
+    height: 70vh;
+    background-size: cover;
+    padding-top: 10vh;
+    background-image: url("../assets/img/lua.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.banner-info, h1,p{
+    color: white;
+    text-align: center;
+}
+.banner-info, .ninja{
+    background-color: red;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 5px gray;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+.logo{
+    height: 438px;
+    float: right;
+}
+section{
+    background-color: red;
+    height: 397px;
+    padding-top: 10px;
+    text-align: center;
+}
+section, h2{
+    margin-bottom: 20px;
+}
+#certificados > .emprego-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.emprego-container > .projeto1{
+    background-image: url("../assets/img/Certificado-desenvolvimento-web.png");
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.projeto2{
+    background-image: url("../assets/img/Certificado-css.png");
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.projeto3{
+    background-image: url("../assets/img/Certificado-git.png");
+    margin-right: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#certificados > .emprego-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div, .pro1{
+    flex: 1 1 200px;
+    height: 300px;    
+    background-size: cover;
+}
+.emprego-container-2 > .pro1{
+    background-image: url("../assets/img/Certificado-algoritimo.png");
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.pro2{
+    background-image: url("../assets/img/Certificado-logica-de\ programação.png");
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.pro3{
+    background-image: url("../assets/img/Certificado-trabalhando-github.png");
+    margin-right: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+footer, p{
+    color: black;
+    margin-top: 305px;
+}
+@media (max-width: 900px) {
+    #main-banner{
+       height: 40vh;
+       padding-top: 5vh;
+       padding-bottom: 10vh;
+    }
+    div, #banner-info > {
+       width: 40%;
+    }
+    div, #banner-info, p{
+       margin: 0;
+       width: auto;
+    }
+    #main-banner > div, .logo{
+       height: 283px;
+       margin-right: 25px;
+    }
+    .ninja{
+       margin-right: 15px;
+    }
+    section, #fim-seção{
+       padding: 2rem;
+       height: auto;
+       padding-bottom: 10px;
+       
+    }
+    #skills #container{
+       margin-bottom: 5px;
+       padding-bottom: 20vh;
+       border-left: 2px solid black;
+       border-right: 2px solid black;
+       display: block ;
+       flex-direction: column;
+   }
+   #certificados .emprego-container{
+    flex-direction: column;
+    height: 700px;
+    width: 250px;
+    margin-bottom: 0;
+    }
+   .emprego-container > .projeto1{
+       background-image: url("../assets/img/Certificado-desenvolvimento-web.png");
+       border: 2px solid black;
+       width: 238px;
+       border-radius: 3px;
+       margin: 5px;
+   }
+   .projeto2{
+       background-image: url("../assets/img/Certificado-css.png");
+       margin-left: 5px;
+       margin-right: 5px;
+       border: 2px solid black;
+       margin: 5px;
+       border-radius: 3px;
+   }
+   .projeto3{
+       background-image: url("../assets/img/Certificado-git.png");
+       margin-right: 5px;
+       border: 2px solid black;
+       margin: 5px;
+       border-radius: 3px;
+   }
+   #certificados .emprego-container-2{
+    flex-direction: column;
+    height: 700px;
+    width: 250px;
+    margin-bottom: 0;
+    }
+   .emprego-container-2 > .pro1{
+       background-image: url("../assets/img/Certificado-trabalhando-github.png");
+       width: 221px;
+       padding-right: 16px;
+       margin-top: 4px;
+       border: 2px solid black;
+       border-radius: 3px;
+   }
+   .pro2{
+       background-image: url("../assets/img/Certificado-algoritimo.png");
+       width: 238px;
+       margin-top: 10px;
+       border: 2px solid black;
+       border-radius: 3px;
+   }
+   .pro3{
+       background-image: url("../assets/img/Certificado-logica-de\ programação.png");
+       margin-top: 6px;
+       margin-left: 5px;
+       width: 238px;
+       border: 2px solid black;
+       border-radius: 3px;
+   }
+   footer, p{
+    color: black;
+    margin-top: -20px;
+}   
+}
