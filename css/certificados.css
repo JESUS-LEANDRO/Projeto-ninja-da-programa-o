@@ -24,6 +24,9 @@ h2{
     border-radius: 50%;
     position: absolute;
     top: 6px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 5px;
 }
 #navbar ul{
     margin-top: 22px;
@@ -165,7 +168,7 @@ footer, p{
        margin-right: 15px;
     }
     section, #fim-seção{
-       padding: 2rem;
+       padding: 1rem;
        height: auto;
        padding-bottom: 10px;
        
