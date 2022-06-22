@@ -408,6 +408,10 @@ footer, .feito{
     .pergaminho{
         background-color: red;
         margin-top: -10vh;
+    }
+    .pergaminho > img{
+        background-color: red;
+        margin-top: -10vh;
         width: 40%;
     }
     button{
