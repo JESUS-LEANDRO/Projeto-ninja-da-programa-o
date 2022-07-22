@@ -45,14 +45,14 @@ a:hover{
     border-radius: 3px;
 }
 #main-banner{
-    height: 70vh;
+    height: 73vh;
     background-size: cover;
     padding-top: 10vh;
     background-image: url("../assets/img/lua.jpg");
     background-repeat: no-repeat;
     width: 100%;
 }
-.banner-info, h1,p{
+.banner-info, h1, p{
     color: white;
     text-align: center;
 }
@@ -60,14 +60,16 @@ a:hover{
     background-color: red;
     font-weight: bold;
     width: 200px;
+    color: white;
     border-radius: 2px;
     box-shadow: 1px 2px 5px gray;
     margin-right: auto;
     margin-left: auto;
     padding: 15px;
+    margin-top: 18px;
 }
 .logo{
-    height: 438px;
+    height: 350px;
     float: right;
 }
 section{
@@ -147,30 +149,33 @@ footer, p{
 }
 @media (max-width: 900px) {
     #main-banner{
-       height: 40vh;
-       padding-top: 5vh;
-       padding-bottom: 10vh;
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 3vh;
+     }
+     div, #banner-info{
+        width: 40%;
+     }
+     div, #banner-info, p{
+        margin: 0;
+        width: auto;
+     }
+     #main-banner > div, .logo{
+        height: 182px;
+        margin-right: 25px;
+     }
+     .ninja{
+        margin-right: 15px;
+        color: white;
+     }
+     section #container{
+        margin-bottom: -120px; 
     }
-    div, #banner-info > {
-       width: 40%;
-    }
-    div, #banner-info, p{
-       margin: 0;
-       width: auto;
-    }
-    #main-banner > div, .logo{
-       height: 283px;
-       margin-right: 25px;
-    }
-    .ninja{
-       margin-right: 15px;
-    }
-    section, #fim-seção{
-       padding: 1rem;
-       height: auto;
-       padding-bottom: 10px;
-       
-    }
+     section, #fim-seção{
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 80px; 
+     }
     #skills #container{
        margin-bottom: 5px;
        padding-bottom: 20vh;

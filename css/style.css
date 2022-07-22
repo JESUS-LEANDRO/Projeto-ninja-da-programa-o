@@ -45,7 +45,7 @@ a:hover{
     border-radius: 3px;
 }
 #main-banner{
-    height: 70vh;
+    height: 73vh;
     background-size: cover;
     padding-top: 10vh;
     background-image: url("../assets/img/lua.jpg");
@@ -55,10 +55,9 @@ a:hover{
 .banner-info, h1,p{
     color: white;
     text-align: center;
+    margin-bottom: 15px;
 }
-.banner-info h1{
-    
-}
+
 .banner-info, .ninja{
     background-color: red;
     font-weight: bold;
@@ -68,16 +67,17 @@ a:hover{
     margin-right: auto;
     margin-left: auto;
     padding: 15px;
+    
 }
 .logo{
-    height: 350px;
+    height: 340px;
     float: right;
 }
 /*inicio seção sobre mim*/
 section{
     background-color: red;
     height: 397px;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
 }
 section, h2{
@@ -276,9 +276,9 @@ footer, .feito{
      #main-banner{
         height: 40vh;
         padding-top: 5vh;
-        padding-bottom: 10vh;
+        padding-bottom: 3vh;
      }
-     div, #banner-info > {
+     div, #banner-info{
         width: 40%;
      }
      div, #banner-info, p{
@@ -286,7 +286,7 @@ footer, .feito{
         width: auto;
      }
      #main-banner > div, .logo{
-        height: 188px;
+        height: 176px;
         margin-right: 25px;
      }
      .ninja{
